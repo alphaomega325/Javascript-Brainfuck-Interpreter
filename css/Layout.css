@@ -1,0 +1,39 @@
+
+nav {
+
+    float: left;
+
+}
+
+article .programwindow {
+
+    float: left;
+    width: 100%;
+
+}
+
+article {
+
+    width: 100%;
+
+}
+
+.execute {
+
+    width: 100%;
+
+}
+
+.output {
+
+  
+    width: 100%;
+
+}
+
+.Errors {
+
+
+    width: 100%;
+
+}

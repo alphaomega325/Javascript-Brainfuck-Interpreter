@@ -1,0 +1,11 @@
+nav ul {
+    float: left;
+    width: 20%;
+
+}
+
+article {
+
+    float: left;
+
+}

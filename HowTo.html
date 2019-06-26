@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8"/>
+    <title>How to Use The Brainfuck Interpreter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/BrainfuckInterpreter.js"></script>
+  </head>
+
+  
+  <body>
+    
+    <h1>The Brainfuck Interpreter</h1>
+
+    <nav>
+      <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="HowTo.html">How To</a></li>
+	<li><a href="Examples.html">Examples</a></li>
+	<li><a href="Sandbox.html">Sandbox</a></li>
+	</ul>
+    </nav>
+
+    
+    <article>
+      <h2>How to program and use the Brainfuck Interpreter.</h2>
+
+      <p>The brainfuck interpreter uses a infinite strip of memory divided into 8 byte sections and uses a single pointer to add(+), subtract(-), or paste(,) from the input window.  Or to put it in simpler terms.  There is a infinte strip of post it notes where each post it notes contains a value between 0 and 255.  Stretching the metaphor think of the pointer as a marker that adds the number on the individual pad by one or subtract by one, predetermined in the code input window.</p>
+
+      <p>Using the pointer left (<) and the pointer right (>) commands moves the pointer to the left section or to the right section.  Or the pend will move from your current post it note to the one on the left or to the right.  Assuming that the one on the left exists, or it will just stay on the same pad.</p>
+
+      <p>The loop begin([) and the loop end(]) is your control flow.  If the memory your pointer is currently pointed at is 0 and the current section of the code is a loop begin, the code pointer will move to the correspoinding end loop.  Otherwise it will continue forward with the next instruction.</p>
+
+      <p>The end loop(]) function will bring the code pointer to the corresponding loop begin([) function if the pointer is not equal to zero.  Otherwise the code pointer will pass the loop end function.</p>
+
+      <p>The print command(.) will print what the memory is that the pointer is currently pointing at. </p>
+    </article>
+    
+    
+    
+    
+  </body>
+</html>

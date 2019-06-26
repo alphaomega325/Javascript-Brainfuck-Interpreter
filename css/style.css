@@ -1,0 +1,52 @@
+@import url("Layout.css")
+
+* {
+
+    background-color: white;
+
+
+}
+
+body {
+
+    background-color: white;
+
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+
+}
+
+li {
+
+    display:inline;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+li a{
+
+    color: white;
+
+}
+
+li:hover {
+
+    background-color: black;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+
+}
+
+article{
+
+    border: 10px solid black;
+    padding: 15px;
+    background-color:white;
+
+}
